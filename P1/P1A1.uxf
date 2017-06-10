@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>110</y>
+      <w>190</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>Familienmitglied
+--
+familienname: string
+vorname: string
+gebdatum: date
+alter:int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>110</y>
+      <w>320</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..n
+Cousin(e)
+von </panel_attributes>
+    <additional_attributes>10.0;10.0;240.0;10.0;240.0;180.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>130</y>
+      <w>240</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..n
+Geschwister 
+von </panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0;150.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>150</y>
+      <w>140</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..1
+m2=0..1
+Partner 
+von </panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0;80.0;100.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>100</y>
+      <w>130</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=2
+r1=Elternteil
+m2=1..n
+r2=Kinder
+</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0;10.0;150.0;110.0;150.0</additional_attributes>
+  </element>
+</diagram>
