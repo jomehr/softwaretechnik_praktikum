@@ -1,0 +1,8 @@
+in usecase keine attribute
+use cases erfassen, löschen etc includieren
+include nur zu auswählen
+
+seminaris b) erfasse seminarveranstaltung: alternativszenario -> erfasse erst seminartyp
+datum sollte alternativszenario sein
+(alternativ und ausnahme szenario nur wenn nötig)
+alles was in vorbedingung ist soll nicht in alternativ/ausnahme
